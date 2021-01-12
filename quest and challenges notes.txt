@@ -1,0 +1,20 @@
+generate dynamic room size
+
+fix rooms door spawning bug
+
+create a 2d character to move around the dungeon
+
+create a new tile set to add colliders to walls
+
+create movement for character either real time or turn based. 
+
+create keys to unlock doors.
+
+create enemies that character can fight. 
+
+create a 'boss' room that completes the dungeon. 
+
+add more dynamic enviroment rooms. 
+
+add a shader to the water/lava to make it looks like it's moving. 
+
