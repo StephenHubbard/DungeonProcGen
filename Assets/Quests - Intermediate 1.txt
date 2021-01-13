@@ -1,0 +1,23 @@
+Fix rooms door spawning bug (note to rick: might be better just to fix this up front and include in project file)
+
+Create keys to unlock doors.
+
+Update our UI to show how many keys our player is holding.  
+
+Create a 'boss' room that completes the dungeon. Only spawn one per dungeon at random at the end of a path.  
+
+Create a boss with unique attacks and animations. 
+
+Add the ability for our player to drop bombs to deal damage when they explode.  
+
+Intergrate the new Unity 2D lighting URP system to add dynamic lighting to your scene. 
+
+Intermediate+ 
+
+Create dynamic room size so that not all rooms are 10x10 units.  
+
+Create water or lava hazards and implement a shader to give them movement.  
+
+
+
+

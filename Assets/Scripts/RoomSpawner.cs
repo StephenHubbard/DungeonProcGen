@@ -7,7 +7,7 @@ public class RoomSpawner : MonoBehaviour
     public int openingDirection;
 
     private RoomTemplates roomTemplates;
-    private int rand;
+    private int randomNum;
     private bool hasSpawned = false;
 
     public float waitTime = 4f;
@@ -27,23 +27,23 @@ public class RoomSpawner : MonoBehaviour
         {
             if (openingDirection == 1)
             {
-                rand = Random.Range(0, roomTemplates.bottomRooms.Length);
-                Instantiate(roomTemplates.bottomRooms[rand], transform.position, roomTemplates.bottomRooms[rand].transform.rotation);
+                randomNum = Random.Range(0, roomTemplates.bottomRooms.Length);
+                Instantiate(roomTemplates.bottomRooms[randomNum], transform.position, roomTemplates.bottomRooms[randomNum].transform.rotation);
             }
             else if (openingDirection == 2)
             {
-                rand = Random.Range(0, roomTemplates.topRooms.Length);
-                Instantiate(roomTemplates.topRooms[rand], transform.position, roomTemplates.topRooms[rand].transform.rotation);
+                randomNum = Random.Range(0, roomTemplates.topRooms.Length);
+                Instantiate(roomTemplates.topRooms[randomNum], transform.position, roomTemplates.topRooms[randomNum].transform.rotation);
             }
             else if (openingDirection == 3)
             {
-                rand = Random.Range(0, roomTemplates.leftRooms.Length);
-                Instantiate(roomTemplates.leftRooms[rand], transform.position, roomTemplates.leftRooms[rand].transform.rotation);
+                randomNum = Random.Range(0, roomTemplates.leftRooms.Length);
+                Instantiate(roomTemplates.leftRooms[randomNum], transform.position, roomTemplates.leftRooms[randomNum].transform.rotation);
             }
             else if (openingDirection == 4)
             {
-                rand = Random.Range(0, roomTemplates.rightRooms.Length);
-                Instantiate(roomTemplates.rightRooms[rand], transform.position, roomTemplates.rightRooms[rand].transform.rotation);
+                randomNum = Random.Range(0, roomTemplates.rightRooms.Length);
+                Instantiate(roomTemplates.rightRooms[randomNum], transform.position, roomTemplates.rightRooms[randomNum].transform.rotation);
             }
             hasSpawned = true;
         }

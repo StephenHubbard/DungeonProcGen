@@ -12,8 +12,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         ProcessInputs();
-
-        print(1.0f / Time.deltaTime);
     }
 
     private void FixedUpdate()

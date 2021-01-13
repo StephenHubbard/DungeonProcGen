@@ -130,10 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3213030653779557145, guid: aff964da58d618349b0f7a6ebf8e1e31, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3226637832966101062, guid: aff964da58d618349b0f7a6ebf8e1e31, type: 3}
       propertyPath: m_Name
       value: Entry Room
@@ -182,8 +178,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7007124780138203538, guid: aff964da58d618349b0f7a6ebf8e1e31, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aff964da58d618349b0f7a6ebf8e1e31, type: 3}
 --- !u!1 &519420028
 GameObject:
@@ -604,7 +599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623796913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.83, y: 4.93, z: 0}
+  m_LocalPosition: {x: 4.96, y: 4.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 700055042}

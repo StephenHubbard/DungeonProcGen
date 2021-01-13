@@ -1,0 +1,22 @@
+Animate our 2d character to face in the direction he's walking. 
+
+Create walking animations using the sprites found in the Imported Assets folder.  
+
+Add some obstacles to the foreground tile map of individual room prefabs. 
+
+Add cinemachine camera logic to follow our player. 
+
+Something is wrong in our RoomSpawner Spawn() method prohibiting rooms from properly spawning.  Hint: Make sure the bools are set up correctly.  
+
+Create a way for our player and ememies to take damage.  
+Hint:  Check out our scripts from the 2D Glitch Garden section if you need some guidance (https://github.com/CompleteUnityDeveloper/07-Glitch-Garden/tree/master/Assets/Scripts).
+
+Create a health script that can be used for both our player and enemies.  
+
+Create an enemy. 
+
+Create a UI showing our Players Health. 
+
+Create a sword attack using the sword sprite and the player attack sprites to deal damage to enemies.  
+
+
