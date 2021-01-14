@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] GameObject sword;
 
     private Vector2 moveDirection;
 
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+        Attack();
     }
 
     private void ProcessInputs()
@@ -31,6 +33,21 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", moveDirection.sqrMagnitude);
 
         moveDirection = new Vector2(moveX, moveY).normalized;
+    }
+
+    private void Attack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            sword.SetActive(true);
+            animator.SetTrigger("attackFront");
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            sword.SetActive(false);
+        }
+
     }
 
     private void Move()
