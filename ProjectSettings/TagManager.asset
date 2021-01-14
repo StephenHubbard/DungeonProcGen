@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SpawnPoint
   - Rooms
+  - Key
+  - Sword
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Background
+  - Foreground
   - 
   - 
   - 
@@ -42,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3988082255
+    locked: 0
+  - name: Foreground
+    uniqueID: 19553913
+    locked: 0
+  - name: Characters
+    uniqueID: 2781545653
+    locked: 0
+  - name: Pickup
+    uniqueID: 2928898917
     locked: 0
