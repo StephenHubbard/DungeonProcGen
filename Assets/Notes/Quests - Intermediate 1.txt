@@ -1,6 +1,4 @@
-Fix rooms door spawning bug (note to rick: might be better just to fix this up front and include in project file)
 
-Create keys to unlock doors.
 
 Update our UI to show how many keys our player is holding.  
 

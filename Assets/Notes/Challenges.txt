@@ -1,0 +1,27 @@
+Animate our 2d character to face and walking in the direction he's moving. 
+
+Add some obstacles to the foreground tile map of individual room prefabs. 
+
+Add cinemachine camera logic to follow our player. 
+
+Something is wrong in our RoomSpawner Spawn() method prohibiting rooms from properly spawning.  Hint: Make sure the bools are set up correctly.  
+
+Create a way for our player and ememies to take damage.  Create a health script that can be used for both our player and enemies.  
+
+Create an enemy that walks around the room they're in and damage the Player if they come in contact with them.  
+
+Create a UI showing our Players Health. 
+
+Create a sword attack using the sword sprite and the player attack sprites to deal damage to enemies.  
+
+Fix rooms door spawning bug (note to rick: might be better just to fix this up front and include in project file)
+
+Create keys to unlock doors in between rooms.
+
+Create a 'boss' room that completes the dungeon. Only spawn one per dungeon at random at the end of a path.  
+
+Add the ability for our player to drop bombs to deal damage when they explode.  
+
+
+
+

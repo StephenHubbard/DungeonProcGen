@@ -10,5 +10,4 @@ public class RoomTemplates : MonoBehaviour
     public GameObject[] rightRooms;
 
     public List<GameObject> rooms;
-    
 }
